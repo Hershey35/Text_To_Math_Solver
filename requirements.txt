@@ -2,4 +2,5 @@ langchain_classic
 langchain_community
 langchain_groq
 streamlit
+wikipedia
 numexpr
