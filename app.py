@@ -9,6 +9,7 @@ from langchain_classic.agents import Tool
 from langchain_classic.agents.initialize import initialize_agent
 from langchain_classic.callbacks import StreamlitCallbackHandler
 
+#st config
 st.set_page_config(page_title="Text to Math Problem Solver and Data Search Assistant",page_icon="🦜")
 st.title("Text to Math Problem Solver")
 
@@ -85,4 +86,5 @@ if st.button("Find my answer"):
             st.success(response)
     else:
         st.warning("Please enter the question")
+
 
